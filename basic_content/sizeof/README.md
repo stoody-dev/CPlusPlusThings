@@ -197,6 +197,25 @@ int main()
      * @brief 8 8 16  派生类虚继承多个虚函数，会继承所有虚函数的vptr
      */
     cout<<sizeof(A)<<" "<<sizeof(B)<<" "<<sizeof(C);
+    int arr;
+    int size =arr.size()
+    int s ;
+    int e ; 
+    int target;
+    int mid = s+(e-s)/2;
+    while (s<=e){
+        if(arr[mid]>=target){
+            int e=mid-1;
+        }
+        else if (arr[mid]<target){
+            int s =mid+1;
+        }
+        else {
+            break
+        }
+
+        
+    }
 
     return 0;
 }
